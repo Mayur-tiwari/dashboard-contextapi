@@ -1,0 +1,104 @@
+.lightTheme{
+    background-color: rgb(238,240,244);
+    color: black;
+    font-family: 'Roboto';
+}
+.darkTheme{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Roboto';
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+.btn-light{
+    width: 5vmax;
+    height: 2vmax;
+    justify-content: center;
+    align-items: center;
+    top: 30px;
+    position: relative;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background: #000000;
+    color: #ffffff;
+}
+.btn-dark{
+    width: 5vmax;
+    height: 2vmax;
+    justify-content: center;
+    align-items: center;
+    top: 30px;
+    position: relative;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.divs-container-light {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.divs-container-light > div{
+    border: 1px solid grey;
+    width: 270px;
+    height: 7vmax;
+    background: #FFFFFF;
+        padding: 10px;
+}
+.divs-container-light > div > h2{
+    padding: 0px;
+    margin: 0px;
+}
+.divs-container-light > div > h2 > span{
+    font-weight: 100;
+}
+.divs-container-light > div > p{
+    padding: 0px;
+    margin: 11px 0px;
+}
+.divs-container-dark{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.divs-container-dark > div{
+    border: 1px solid black;
+    width: 270px;
+    height: 7vmax;
+    background-color: grey;
+        padding: 10px;
+}
+.divs-container-dark > div > h2{
+    padding: 0px;
+    margin: 0px;
+}
+.divs-container-dark > div > h2 > span{
+    font-weight: 100;
+}
+.divs-container-dark > div > p{
+    padding: 0px;
+    margin: 11px 0px;
+}
+.bar-light{
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.bar-dark{
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
